@@ -1,4 +1,4 @@
-# multipage-website
-Created for frond-end practise
+# About this Repo
+This repo is forked from https://github.com/nsevindi87/multipage-website
 
-You can reach my demo website here: https://nsevindi87.github.io/multipage-website/blog.html
+The hosted page can be visied from https://keimatch.github.io/multipage-website/
