@@ -17,8 +17,8 @@
     <title>Demo Adobe Analytics</title>
 
     <script>
-      let dataLayer = dataLayer || {};
-      dataLayer = { val1: "dataLayer_test" };
+      window.adobeDataLayer = window.adobeDataLayer || [];
+      window.adobeDataLayer.push({ var1: "Hello World" });
     </script>
 
     <script
