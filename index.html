@@ -16,6 +16,18 @@
     />
     <title>Demo Adobe Analytics</title>
 
+    <script src="https://javascript.info/article/script-async-defer/long.js?speed=1"></script>
+
+    <script>
+      window.addEventListener("DOMContentLoaded", () => {
+        console.log("DOMContentLoaded");
+      });
+
+      window.addEventListener("load", () => {
+        console.log("load");
+      });
+    </script>
+
     <script>
       window.adobeDataLayer = window.adobeDataLayer || [];
       window.adobeDataLayer.push({ var1: "Hello World" });
